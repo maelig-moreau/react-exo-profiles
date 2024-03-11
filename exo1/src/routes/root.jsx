@@ -6,7 +6,7 @@ export default function Root() {
     toKeys.forEach((element) => {toArray.push(db[element])})
     return (
         <>
-            <h1>Root test</h1>
+            <h1>Accurate encyclopedia</h1>
             {toArray.map((element,i) => {
                 return <ProfileCard key={i} name={element.name} picture={element.picture} address={toKeys[i]} />
             })}

@@ -45,6 +45,6 @@
         "birthdate":"41.9 BBY",
         "birthplace":"Tatooine",
         "characterClass":"Sith Lord",
-        "picture":"./pp_darth_vader.webp"
+        "picture":"/pp_darth_vader.webp"
     }
 }

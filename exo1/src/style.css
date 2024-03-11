@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(46, 45, 48);
+    color: rgb(250, 255, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 a {
     all:unset
 }
@@ -17,11 +23,15 @@ a {
     color: rgb(21, 83, 21);
     background-image: linear-gradient(to left, #bad1bc,#bbf8f8f8);
 
-    max-width: 256px;
+    max-width: 800px;
+}
+
+.ProfileCard>* {
+    margin: 8px;
 }
 
 .ProfileCard:hover {
     transition: all 0.2s;
     border: 1px solid green;
-    padding: 12px;
+    margin: 12px;
 }
