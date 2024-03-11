@@ -35,3 +35,8 @@ a {
     border: 1px solid green;
     margin: 12px;
 }
+
+input {
+    padding: 8px;
+    min-width: 50vw;
+}
