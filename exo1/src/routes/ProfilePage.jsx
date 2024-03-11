@@ -24,8 +24,6 @@ function ProfilePage({ name, aka, birthdate, birthplace, characterClass, picture
         </>)
     }
 
-    console.log(picture);
-
     return (
         <>
             <h1>{name}</h1>

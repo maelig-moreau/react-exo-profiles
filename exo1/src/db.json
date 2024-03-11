@@ -46,5 +46,29 @@
         "birthplace":"Tatooine",
         "characterClass":"Sith Lord",
         "picture":"/pp_darth_vader.webp"
+    },
+    "sauron":{
+        "name":"Sauron",
+        "aka":"Lord of the Rings",
+        "birthdate":"Before the Ainulindalë",
+        "birthplace":"Dor-na-Daerachas",
+        "characterClass":"Evil",
+        "picture":"/pp_sauron.jpg"
+    },
+    "frodo_baggins":{
+        "name":"Frodo Baggins",
+        "aka":"The Hobbit",
+        "birthdate":"September 22, TA 2968",
+        "birthplace":"Ireland",
+        "characterClass":"Hobbit",
+        "picture":"/pp_frodo_baggins.webp"
+    },
+    "shrek":{
+        "name":"Shrek",
+        "aka":"Love, Life",
+        "birthdate":"December 24th 1969",
+        "birthplace":"Swamp",
+        "characterClass":"Green",
+        "picture":"/pp_shrek.jpg"
     }
 }

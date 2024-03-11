@@ -1,11 +1,29 @@
-body {
+html {
     background-color: rgb(46, 45, 48);
     color: rgb(250, 255, 245);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.CardList {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(109, 84, 84);
+    padding: 16px;
 }
 
 a {
     all:unset
+}
+
+h1 {
+    position: relative;
+    margin-bottom: 64px;
+    background-color: #bad1bc;
+    color: #333535f8;
+    padding: 20px;
+    top: 0px;
 }
 
 .ProfileCard {
@@ -23,7 +41,7 @@ a {
     color: rgb(21, 83, 21);
     background-image: linear-gradient(to left, #bad1bc,#bbf8f8f8);
 
-    max-width: 800px;
+    max-width: 400px;
 }
 
 .ProfileCard>* {
@@ -37,6 +55,18 @@ a {
 }
 
 input {
+    margin: auto;
     padding: 8px;
-    min-width: 50vw;
+    width: 80vw;
+    max-width: 400px;
+}
+
+@media (min-width: 600px)  {
+    .CardList {
+        display: flex;
+        flex-direction: row;
+        max-width: 80vw;
+        height: 150vh;
+        background-color: grey;
+    }
 }
