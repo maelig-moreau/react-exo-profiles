@@ -64,9 +64,11 @@ input {
 @media (min-width: 600px)  {
     .CardList {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
+        align-items: start ;
+        justify-items: center ;
         max-width: 80vw;
-        height: 150vh;
-        background-color: grey;
+        height: auto;
     }
 }
