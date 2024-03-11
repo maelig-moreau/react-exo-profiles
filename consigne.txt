@@ -1,0 +1,37 @@
+Développer une application React qui permet aux utilisateurs de parcourir, rechercher, et visualiser des profils de personnes, avec la possibilité de sauvegarder leurs favoris.
+
+Fonctionnalités Clés:
+
+Affichage des Profils:
+Présenter une liste de profils de personnes. Chaque profil peut inclure une photo, un nom, une brève description, et éventuellement d'autres informations telles que l'âge, la profession, ou les centres d'intérêt.
+
+Détails du Profil
+Permettre aux utilisateurs de cliquer sur un profil pour voir plus de détails.
+Cette page de détails pourrait inclure des informations supplémentaires, des photos, et peut-être une courte biographie ou des anecdotes.
+
+Fonction de Recherche
+Intégrer une fonction de recherche pour permettre aux utilisateurs de trouver des profils basés sur des critères spécifiques, comme le nom, la profession, ou les centres d'intérêt.
+
+
+Responsive Design
+Assurer que l'application est utilisable sur des appareils de différentes tailles, du téléphone mobile à l'écran d'ordinateur.(@media, Flexbox, bootstarp ...)
+
+
+            Considérations Techniques
+
+Gestion de l'État: 
+    Utiliser les Hooks de React, tels que useState , pour gérer l'état de l'application et les interactions utilisateur.
+
+Routing: 
+    Emploi de React Router pour la navigation entre les vues de la liste des profils, 
+    et les détails des profils.
+    
+Données : 
+    vous pouvez utiliser des données statiques. 
+    À terme, intégrer des données dynamiques via une API publique ou une API que vous créez pourrait enrichir l'application.
+    
+
+    
+
+Tester l'application sur différents appareils et navigateurs. 
+Ajuster le design et la logique au besoin.

@@ -1,0 +1,50 @@
+{
+    "harry_potter":{
+        "name":"Harry Potter",
+        "aka":"The boy who lived",
+        "birthdate":"July 31, 1980",
+        "birthplace":"Howgarts",
+        "characterClass":"Warlock",
+        "picture":"/pp_harry_potter.jpg"
+    },
+    "voldemort":{
+        "name":"Voldemort",
+        "aka":"He who must not be named / The Dark Lord",
+        "birthdate":"???",
+        "birthplace":"???",
+        "characterClass":"Bald",
+        "picture":"/pp_voldemort.jpg"
+    },
+    "hermione_granger":{
+        "name":"Hermione Granger",
+        "aka":"Unsufferable Know-It-All",
+        "birthdate":"September 19, 1979",
+        "birthplace":"Scotland",
+        "characterClass":"Muggle",
+        "picture":"/pp_hermione_granger.jpg"
+    },
+    "ron_weasley":{
+        "name":"Ron Weasley",
+        "aka":"Dumbass",
+        "birthdate":"March 1, 1980",
+        "birthplace":"Weasley",
+        "characterClass":"Poor",
+        "picture":"/pp_ron_weasley.webp"
+    },
+    "luke_skywalker":{
+        "name":"Luke",
+        "aka":"The last jedi",
+        "birthdate":"19 BBY",
+        "birthplace":"Tatooine",
+        "characterClass":"Space Wizard Ninja",
+        "picture":"/pp_luke_skywalker.jpg"
+    },
+    "darth_vader":{
+        "name":"Darth Vader",
+        "aka":"Your father",
+        "birthdate":"41.9 BBY",
+        "birthplace":"Tatooine",
+        "characterClass":"Sith Lord",
+        "picture":"./pp_darth_vader.webp"
+    }
+}

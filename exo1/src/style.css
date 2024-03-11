@@ -1,0 +1,27 @@
+a {
+    all:unset
+}
+
+.ProfileCard {
+    border: 1px transparent;
+    border-radius: 16px;
+    margin: 16px;
+    padding: 8px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(21, 83, 21);
+    background-image: linear-gradient(to left, #bad1bc,#bbf8f8f8);
+
+    max-width: 256px;
+}
+
+.ProfileCard:hover {
+    transition: all 0.2s;
+    border: 1px solid green;
+    padding: 12px;
+}
